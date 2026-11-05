@@ -1,5 +1,26 @@
 # Exercise 1. Matrix Size and Entries
 
+## Question
+
+Given
+
+$$
+A=
+\begin{pmatrix}
+2 & -1 & 3 \\
+0 & 4 & 5 \\
+\end{pmatrix},\qquad B=
+\begin{pmatrix}
+1 & 0 \\
+-2 & 3 \\
+4 & 1 \\
+\end{pmatrix}.
+$$
+
+Tasks: (1) state the sizes of matrices $A$ and $B$; (2) read off the entries $a_{12}$, $a_{23}$, $b_{21}$, and $b_{32}$; (3) write the second row of $A$ and the first column of $B$ as vectors.
+
+## Solution
+
 $$
 A=
 \begin{pmatrix}
