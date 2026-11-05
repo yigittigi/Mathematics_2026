@@ -79,7 +79,16 @@ A consequence is that rotation matrices commute with each other: $R(\alpha)R(\be
 
 ### Verification
 
-Take $\alpha=\beta=90^\circ$. Then $R(90^\circ)=\begin{pmatrix}0 & -1 \\ 1 & 0\end{pmatrix}$ and
+Take $\alpha=\beta=90^\circ$. Then 
+
+$$
+R(90^\circ)=\begin{pmatrix}
+0 & -1 \\
+1 & 0 \\
+\end{pmatrix}
+$$
+
+ and
 
 $$
 R(90^\circ)R(90^\circ)=

@@ -71,7 +71,7 @@ B=
 \begin{pmatrix}
 a & b \\
 0 & a \\
-\end{pmatrix}=aI+bN,\qquad\text{where } N=
+\end{pmatrix}=aI+bN,\qquad N=
 \begin{pmatrix}
 0 & 1 \\
 0 & 0 \\
@@ -82,7 +82,16 @@ These are the upper triangular matrices with equal diagonal entries. Note that $
 
 ### Verification
 
-Take $a=2$, $b=5$: $B=\begin{pmatrix}2 & 5 \\ 0 & 2\end{pmatrix}$.
+Take $a=2$, $b=5$: 
+
+$$
+B=\begin{pmatrix}
+2 & 5 \\
+0 & 2 \\
+\end{pmatrix}
+$$
+
+.
 
 $$
 AB=
@@ -96,4 +105,31 @@ AB=
 \end{pmatrix}
 $$
 
-The products agree. For a matrix outside this family, such as $B=\begin{pmatrix}1 & 0 \\ 1 & 1\end{pmatrix}$ (here $c=1\neq0$), we get $AB=\begin{pmatrix}2 & 1 \\ 1 & 1\end{pmatrix}$ but $BA=\begin{pmatrix}1 & 1 \\ 1 & 2\end{pmatrix}$, so they do not commute.
+The products agree. For a matrix outside this family, such as 
+
+$$
+B=\begin{pmatrix}
+1 & 0 \\
+1 & 1 \\
+\end{pmatrix}
+$$
+
+ (here $c=1\neq0$), we get 
+
+$$
+AB=\begin{pmatrix}
+2 & 1 \\
+1 & 1 \\
+\end{pmatrix}
+$$
+
+ but 
+
+$$
+BA=\begin{pmatrix}
+1 & 1 \\
+1 & 2 \\
+\end{pmatrix}
+$$
+
+, so they do not commute.

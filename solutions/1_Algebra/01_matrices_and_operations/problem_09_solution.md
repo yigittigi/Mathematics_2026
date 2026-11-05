@@ -93,7 +93,7 @@ RSx=
 \begin{pmatrix}
 -2 \\
 2 \\
-Add solution for problem 9\begin{pmatrix}
+\end{pmatrix}\neq \begin{pmatrix}
 -4 \\
 1 \\
 \end{pmatrix}=SRx

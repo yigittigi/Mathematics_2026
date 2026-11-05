@@ -79,7 +79,7 @@ A^n=
 \begin{pmatrix}
 1 & n \\
 0 & 1 \\
-\end{pmatrix}\qquad\text{for every integer } n\geq1.
+\end{pmatrix}\qquadn\geq1.
 $$
 
 ### Inductive step
